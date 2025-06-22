@@ -1,3 +1,6 @@
+console.log('-------------------- Classes --------------------');
+
+
 class Animal {
     public name: string; // Public property, accessible from anywhere
     protected sound: string; // Protected property, accessible within the class and subclasses

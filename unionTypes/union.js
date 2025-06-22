@@ -1,4 +1,5 @@
 "use strict";
+console.log('-------------------- Union Types --------------------');
 let userId; // userId can be either a string or a number
 userId = "Max"; // userId can also be a string
 userId = 123; // userId can also be a number

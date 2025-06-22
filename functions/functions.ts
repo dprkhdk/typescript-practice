@@ -1,3 +1,6 @@
+console.log('-------------------- Functions --------------------');
+
+
 function sum(numberOne: number, numberTwo: number): number {// Function to sum two numbers
     // The function takes two parameters, both of type number, and returns their sum.
     return numberOne + numberTwo;

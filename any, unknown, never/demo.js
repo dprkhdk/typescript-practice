@@ -1,5 +1,6 @@
 "use strict";
 // any
+console.log('-------------------- Any Type --------------------');
 let anyting = "I am a string";
 anyting = 42; // Now it's a number
 anyting = true; // Now it's a boolean
@@ -42,4 +43,4 @@ function unionTypesCheck(props) {
 }
 unionTypesCheck("Hello, World!");
 unionTypesCheck(42);
-unionTypesCheck(true); // This will throw an error because true is not a string or number
+//unionTypesCheck(true); // This will throw an error because true is not a string or number

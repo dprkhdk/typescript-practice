@@ -1,4 +1,5 @@
 //Bad practice: using 'any' type !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+console.log('-------------------- Type Assertions --------------------');
 
 const headerElement = document.getElementById('test-header');
 console.log((headerElement as HTMLHeadingElement).textContent); // "Type assertion to HTMLHeadingElement"

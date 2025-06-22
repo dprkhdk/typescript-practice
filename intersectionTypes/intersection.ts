@@ -1,3 +1,6 @@
+console.log('-------------------- Intersection Types --------------------');
+
+
 type Car = { // Intersection type example
     wheels: number;
     engine: string;

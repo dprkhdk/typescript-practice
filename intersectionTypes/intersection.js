@@ -1,4 +1,5 @@
 "use strict";
+console.log('-------------------- Intersection Types --------------------');
 const amphibiousVehicle = {
     wheels: 4,
     engine: "V8",

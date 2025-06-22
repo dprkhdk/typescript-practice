@@ -1,5 +1,6 @@
 "use strict";
 //Bad practice: using 'any' type !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+console.log('-------------------- Type Assertions --------------------');
 const headerElement = document.getElementById('test-header');
 console.log(headerElement.textContent); // "Type assertion to HTMLHeadingElement"
 console.log(headerElement.textContent); // "Type assertion to HTMLHeadingElement 2nd way"

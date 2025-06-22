@@ -1,3 +1,6 @@
+console.log('-------------------- Variables --------------------');
+
+
 const myString: string = "Hello, World!"; // String type
 const myNumber: number = 42;// Number type
 const myBoolean: boolean = true;// Boolean type
@@ -15,3 +18,5 @@ const user: User = {// Object type
   age: 30,
   isActive: true
 };
+
+console.log(user);

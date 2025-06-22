@@ -1,4 +1,5 @@
 "use strict";
+console.log('-------------------- Variables --------------------');
 const myString = "Hello, World!"; // String type
 const myNumber = 42; // Number type
 const myBoolean = true; // Boolean type
@@ -10,3 +11,4 @@ const user = {
     age: 30,
     isActive: true
 };
+console.log(user);

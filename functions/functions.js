@@ -1,4 +1,5 @@
 "use strict";
+console.log('-------------------- Functions --------------------');
 function sum(numberOne, numberTwo) {
     // The function takes two parameters, both of type number, and returns their sum.
     return numberOne + numberTwo;

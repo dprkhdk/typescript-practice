@@ -1,4 +1,5 @@
 "use strict";
+console.log('-------------------- Classes --------------------');
 class Animal {
     constructor(name, sound, legs) {
         this.name = name;
