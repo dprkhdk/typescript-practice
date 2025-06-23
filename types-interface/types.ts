@@ -54,3 +54,13 @@ const id2: identifier = 67890;
 type Status = "active" | "inactive" | "pending";
 const userStatus: Status = "active"; // valid
 // const invalidStatus: Status = "deleted"; // This will cause an error because "deleted
+
+console.log("--------------------Array Types in TypeScript--------------------");
+
+let myArray: number[] = [1, 2, 3, 4, 5]; // Array of numbers 1st way
+let myArray2: Array<number> = [6, 7, 8, 9, 10]; // Array of numbers 2nd way 
+let myArray3: (string | number)[] = ["apple", 1, "banana", 2]; // Array of mixed types
+let myArray4: Array<string | number> = ["cherry", 3, "date", 4]; // Array of mixed types 2nd way
+let myArray5: string[][] = [["apple", "banana"], ["cherry", "date"]]; // Array of arrays of strings
+
+console.log(myArray, myArray2, myArray3, myArray4, myArray5);

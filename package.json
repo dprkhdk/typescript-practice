@@ -1,0 +1,24 @@
+{
+  "name": "typescript-simple",
+  "version": "1.0.0",
+  "description": "Welcome to my TypeScript learning and practice repository!   This project is a collection of small exercises, snippets, and mini-projects to improve my understanding of TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dprkhdk/typescript-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dprkhdk/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/dprkhdk/typescript-practice#readme",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}

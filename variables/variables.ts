@@ -20,3 +20,5 @@ const user: User = {// Object type
 };
 
 console.log(user);
+
+

@@ -20,3 +20,14 @@ const BigBossObj = {
     // department: "Management"
 };
 console.log(BigBossObj);
+const id1 = "12345";
+const id2 = 67890;
+const userStatus = "active"; // valid
+// const invalidStatus: Status = "deleted"; // This will cause an error because "deleted
+console.log("--------------------Array Types in TypeScript--------------------");
+let myArray = [1, 2, 3, 4, 5]; // Array of numbers 1st way
+let myArray2 = [6, 7, 8, 9, 10]; // Array of numbers 2nd way 
+let myArray3 = ["apple", 1, "banana", 2]; // Array of mixed types
+let myArray4 = ["cherry", 3, "date", 4]; // Array of mixed types 2nd way
+let myArray5 = [["apple", "banana"], ["cherry", "date"]]; // Array of arrays of strings
+console.log(myArray, myArray2, myArray3, myArray4, myArray5);
