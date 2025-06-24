@@ -1,5 +1,5 @@
 "use strict";
-// any
+//Bad practice: using 'any' type !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 console.log('-------------------- Any Type --------------------');
 let anyting = "I am a string";
 anyting = 42; // Now it's a number

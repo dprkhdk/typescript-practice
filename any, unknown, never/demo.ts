@@ -1,4 +1,4 @@
-// any
+//Bad practice: using 'any' type !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 console.log('-------------------- Any Type --------------------');
 
 let anyting: any = "I am a string";
