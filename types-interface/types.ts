@@ -64,3 +64,12 @@ let myArray4: Array<string | number> = ["cherry", 3, "date", 4]; // Array of mix
 let myArray5: string[][] = [["apple", "banana"], ["cherry", "date"]]; // Array of arrays of strings
 
 console.log(myArray, myArray2, myArray3, myArray4, myArray5);
+
+console.log("--------------------Cortege Types in TypeScript--------------------");
+
+type Point = [number, number]; // Tuple type representing a point in 2D space
+const point: Point = [10, 20]; // Valid tuple
+// const invalidPoint: Point = [10, 20, 30]; // This will cause an error because it has too many elements
+// const invalidPoint2: Point = [10, "some string"]; // This will cause an error because it has too few elements
+const validPoint: [number, number] = [30, 40]; // Valid tuple with two numbers
+const stringPlusNumber: [string, number] = ["Hello", 42]; // Valid tuple with a string and a number

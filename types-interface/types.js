@@ -31,3 +31,9 @@ let myArray3 = ["apple", 1, "banana", 2]; // Array of mixed types
 let myArray4 = ["cherry", 3, "date", 4]; // Array of mixed types 2nd way
 let myArray5 = [["apple", "banana"], ["cherry", "date"]]; // Array of arrays of strings
 console.log(myArray, myArray2, myArray3, myArray4, myArray5);
+console.log("--------------------Cortege Types in TypeScript--------------------");
+const point = [10, 20]; // Valid tuple
+// const invalidPoint: Point = [10, 20, 30]; // This will cause an error because it has too many elements
+// const invalidPoint2: Point = [10, "some string"]; // This will cause an error because it has too few elements
+const validPoint = [30, 40]; // Valid tuple with two numbers
+const stringPlusNumber = ["Hello", 42]; // Valid tuple with a string and a number
